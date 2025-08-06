@@ -2,18 +2,31 @@
 php vulnerability explotation RCE
 
 ## Objective
-[Brief Objective - Remove this afterwards]
-
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+The objective of the Agent T CTF room is to simulate a realistic penetration test where you investigate a suspicious web service, identify vulnerabilities, and exploit them to gain unauthorized access. The core challenge revolves around discovering that the server is running an exposed and vulnerable version of PHP/8.1.0-dev, which includes a debug interface on port 8080 that allows unauthenticated remote code execution (RCE). Your goal is to leverage this misconfiguration to execute commands, explore the system, and ultimately locate and capture the hidden flag. This CTF teaches critical skills like service enumeration, exploitation of insecure development environments, and post-exploitation enumeration—all of which are foundational for real-world cybersecurity work.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
+### Reconnaissance and Enumeration
+- Identified technologies and software versions (e.g. PHP/8.1.0-dev)
+- Scanned for open ports and exposed services (e.g. port 8080)
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+### Exploitation Techniques
+- Exploited an exposed PHP debug interface for unauthenticated remote code execution (RCE)
+- Crafted and delivered PHP payloads using tools like `netcat`
+
+### Understanding Misconfigurations
+- Recognized the risks of using development builds in production environments
+- Identified default services or features that should be disabled
+
+### Post-Exploitation
+- Navigated the file system after gaining shell access
+- Searched for and retrieved sensitive data (e.g. flag files)
+
+### Hands-on Practice with Tools
+- Used tools like `nmap`, `curl`, and `nc` in real-world scenarios
+
+### Real-world Cybersecurity Concepts
+- Gained a practical understanding of RCE vulnerabilities
+- Learned how misconfigured systems can lead to full compromise
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
