@@ -2,7 +2,7 @@
 php vulnerability explotation RCE
 
 ## Objective
-The objective of the Agent T CTF room is to simulate a realistic penetration test where you investigate a suspicious web service, identify vulnerabilities, and exploit them to gain unauthorized access. The core challenge revolves around discovering that the server is running an exposed and vulnerable version of PHP/8.1.0-dev, which includes a debug interface on port 8080 that allows unauthenticated remote code execution (RCE). Your goal is to leverage this misconfiguration to execute commands, explore the system, and ultimately locate and capture the hidden flag. This CTF teaches critical skills like service enumeration, exploitation of insecure development environments, and post-exploitation enumeration—all of which are foundational for real-world cybersecurity work.
+The objective of the Agent T CTF room is to simulate a realistic penetration test where you investigate a suspicious web service, identify vulnerabilities, and exploit them to gain unauthorized access. The core challenge revolves around discovering that the server is running an exposed and vulnerable version of PHP/8.1.0-dev, which includes a debug interface on port 8080 that allows unauthenticated remote code execution (RCE). The goal is to leverage this misconfiguration to execute commands, explore the system, and ultimately locate and capture the hidden flag. This CTF teaches critical skills like service enumeration, exploitation of insecure development environments, and post-exploitation enumeration—all of which are foundational for real-world cybersecurity work.
 
 ### Skills Learned
 ### Reconnaissance and Enumeration
