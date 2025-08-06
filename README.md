@@ -29,17 +29,12 @@ The objective of the Agent T CTF room is to simulate a realistic penetration tes
 - Learned how misconfigured systems can lead to full compromise
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
-
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- **Nmap** – For scanning open ports and identifying running services
+- **cURL** – To manually inspect HTTP responses and headers
+- **Netcat (nc)** – Used to send PHP payloads and gain shell access
+- **WhatWeb** – For identifying technologies used by the web server
+- **Shodan (optional)** – To check if the exposed service is discoverable publicly
+- **Linux Command Line** – For enumeration and post-exploitation activities
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
